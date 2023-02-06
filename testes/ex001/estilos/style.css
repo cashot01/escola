@@ -40,34 +40,30 @@ td, th {
     border: 1px solid black;
 }
 
-th{
-    background-color: var(--cor1);
-}
-
  td {
     text-align: center;
 }
 
-.aula{
+col.caula{
     background-color: var(--cor3);
 }
 
-.segunda{
+col.csegunda{
     background-color: var(--cor4);
 }
 
-.terca{
+col.cterca{
     background-color: var(--cor5);
 }
 
-.quarta{
+col.cquarta{
     background-color: var(--cor4);
 }
 
-.quinta{
+col.cquinta{
     background-color: var(--cor5);
 }
 
-.sexta{
+col.csexta{
     background-color: var(--cor4);
 }
