@@ -50,7 +50,26 @@ tr#l1{
     text-align: center;
 }
 
-td.aula{
+.aula{
     background-color: var(--cor3);
 }
 
+.segunda{
+    background-color: var(--cor4);
+}
+
+.terca{
+    background-color: var(--cor5);
+}
+
+.quarta{
+    background-color: var(--cor4);
+}
+
+.quinta{
+    background-color: var(--cor5);
+}
+
+.sexta{
+    background-color: var(--cor4);
+}
