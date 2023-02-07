@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*cores: 
+#6184F5 
+#58D3FA 
+#524EDE 
+#8958FA
+#4E95DE*/
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+    text-decoration: overline;
+    color: #8958FA;
+}
+
+table{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td , th {
+    border: 1px solid black;
+}
+
+#inome, #inum{
+    background-color: gray ;
+}
+
+.cnum{
+    text-align: center;
+}
+
+col.cnome{
+    background-color: #6184F5;
+}
+
+col.cnum{
+    background-color:#58D3FA ;
+}
