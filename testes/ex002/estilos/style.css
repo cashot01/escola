@@ -15,17 +15,29 @@ html, body{
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    text-transform: capitalize;
+    text-transform: none;
+    background:linear-gradient(#8958FA, #4E95DE )  ;
+    height: 100vh;
+    width: 100vw;
 }
 
 h1{
     text-align: center;
-    text-decoration: overline;
-    color: #8958FA;
+    text-decoration: none;
+    color: #58D3FA ;
+    background-color: #8958FA ;
+    margin: 0px;
+    padding: 0px;
+}
+
+caption{
+    background-color: gray;
+    border: 1px solid black;
 }
 
 table{
     margin: 10px;
+    margin-left: 30px;
     padding: 10px;
     width: 400px;
     border: 1px solid black;
@@ -50,4 +62,24 @@ col.cnome{
 
 col.cnum{
     background-color:#58D3FA ;
+}
+
+div{
+    background-color: #8958FA;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+h2{
+    margin: 0.5px;
+    padding: 5px;
+    color: #58D3FA;
+}
+
+p{
+    margin: 0.5em;
+    padding: 5px;
+    background-color: #524EDE;
 }
