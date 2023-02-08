@@ -16,7 +16,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     text-transform: none;
-    background:linear-gradient(to bottom, #8958FA, #4E95DE )  ;
+    background-color: #8958FA  ;
     height: 100vh;
     width: 100vw;
 }
@@ -30,16 +30,24 @@ h1{
     padding: 0px;
 }
 
+main{
+    position: relative;
+    margin: auto;
+    width: 90vw;
+    height: 80vh;
+    background-color: #58D3FA;
+    text-align: center;
+}
+
 caption{
     background-color: gray;
     border: 1px solid black;
 }
 
 table{
-    margin: 10px;
-    margin-left: 30px;
-    padding: 10px;
-    width: 400px;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -61,13 +69,13 @@ col.cnome{
 }
 
 col.cnum{
-    background-color:#58D3FA ;
+    background-color:#2daed5 ;
 }
 
 div{
     background-color: #8958FA;
     display: inline-block;
-    margin: 0.5em;
+    margin: 1.5em;
     padding: 0px;
     border-radius: 5px;
 }
@@ -75,7 +83,6 @@ div{
 h2{
     margin: 0.5px;
     padding: 5px;
-    color: #58D3FA;
 }
 
 p{
@@ -83,4 +90,25 @@ p{
     padding: 5px;
     background-color: #524EDE;
     font-size: 1.3em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #8958FA;
+}
+
+footer{
+    text-decoration: underline;
+}
+
+#footer{
+    background-color:#4E95DE ;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 6em;
 }
