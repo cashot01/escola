@@ -113,13 +113,12 @@ footer{
     background-color:#4E95DE ;
     text-align: center;
    margin-top: 45px;
-   margin-left: 0px;
-   margin-right: 0px;
+
     max-width: 100vw;
 }
 
 #footer{
     background-color:#4E95DE ;
     font-size: 0.8em;
-    
+    max-width: 100vw;
 }
