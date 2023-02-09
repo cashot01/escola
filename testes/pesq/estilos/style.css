@@ -33,8 +33,8 @@ h1{
 main{
     position: relative;
     margin: auto;
-    width: 600px;
-    height: 580px;
+    width: 90vw;
+    height: 90vw;
     background-color: #58D3FA;
     text-align: center;
 }
@@ -45,9 +45,9 @@ caption{
 }
 
 table{
-    margin: 0px;
+    margin:auto;
     padding: 20px;
-    width: 500px;
+    
     border: 1px solid black;
     border-collapse: collapse;
 }
