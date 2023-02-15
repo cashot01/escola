@@ -5,7 +5,17 @@
 #58D3FA 
 #524EDE 
 #8958FA
-#4E95DE*/
+#4E95DE 
+#2daed5*/
+
+:root{
+    --cor0: #8958FA;
+    --cor1: #58D3FA;
+    --cor2: #524EDE;
+    --cor3: #4E95DE;
+    --cor4: #6184F5 ;
+    --cor5: #2daed5;
+}
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -15,30 +25,48 @@
 }
 
 body, html{
-    
-    font-weight: bolder;
-    text-transform: none;
     background-color: #8958FA  ;
     height: 100vh;
     width: 100vw;
 }
 
-h1{
+header{
+    background-color: var(--cor2) ;
+    padding-top: 20px;
     text-align: center;
+
+}
+
+header > h1{
+    color: var(--cor1);
+    font-size: 2.5em;
     text-decoration: none;
-    color: #58D3FA ;
-    background-color: #8958FA ;
-    margin: 0px;
-    padding: 5px;
+    margin-bottom: 20px;
+    
 }
 
 main{
     position: relative;
     margin: auto;
-    width: 80vw;
-    height: 90vh;
-    background-color: #58D3FA;
+    height: 80vh;
+    width: 100vw;
+}
+
+section#pesq{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    background-color: var(--cor1);
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    transition-timing-function: ease;
     text-align: center;
+    transition: width .3s, height .3s;
+    transform: translate(-50%, -50%);
 }
 
 caption{
@@ -47,7 +75,7 @@ caption{
 }
 
 table{
-    margin: 0 auto;
+    margin:  auto;
     padding: 20px;
     
     border-collapse: collapse;
@@ -64,41 +92,33 @@ td , th {
 
 .cnum{
     text-align: center;
+    background-color: var(--cor5) ;
 }
 
 col.cnome{
-    background-color: #6184F5;
-}
-
-col.cnum{
-    background-color:#2daed5 ;
-}
-
-div{
-    background-color: #8958FA;
-    display: inline-block;
-    margin: 1em;
-    padding: 0px;
-    border-radius: 5px;
+    background-color: var(--cor4);
 }
 
 #tabela{
    margin: 0px;
-   background-color: #58D3FA;
+   margin-top: 5px;
+   background-color: var(--cor1);
    display: block;
 }
 
 h2{
-    margin: 0px;
-    padding: 5px;
-    
+    margin: 10px;
+    padding: 4px;
+    background-color: var(--cor0);
+    border: 1px solid var(--cor0);
+    border-radius: 10px;
 }
 
 p{
     
     padding: 5px;
     margin: 5px;
-    background-color: #524EDE;
+    background-color: var(--cor2);
     font-size: 15px;
     border-radius: 10px;
 }

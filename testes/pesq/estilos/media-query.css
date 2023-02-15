@@ -9,11 +9,14 @@ grandes telas: acima de 1200px
 */
 
 @media screen and (min-width:768px) and (max-width: 992px)  {
-
     main{
-        width: 60vw;
-        height: 70vh;
-       
+        
+    }
+
+    section#pesq{
+       width: 70vw;
+       height: 85vh;
+       margin-top: 10px;
     }
 
     p{
@@ -24,11 +27,11 @@ grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 992px) {
-    html{
+    body{
         background: linear-gradient(to bottom, #8958FA, #6184F5)  ;
     }
 
-    main{
+    section#pesq{
         width: 60vw ;
         height: 80vh;
     }
