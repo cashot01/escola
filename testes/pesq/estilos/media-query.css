@@ -9,9 +9,7 @@ grandes telas: acima de 1200px
 */
 
 @media screen and (min-width:768px) and (max-width: 992px)  {
-    main{
-        
-    }
+
 
     section#pesq{
        width: 70vw;
@@ -36,10 +34,15 @@ grandes telas: acima de 1200px
         height: 80vh;
     }
 
+    h2{
+        max-width: 85%;
+        transform: translateX(9.5%) ;
+    }
+
     p{
         padding: 1em;
-        max-width: 80vw;
-        display: block;
-
+        max-width: 60%;
+        transform: translateX(32%);
+        
     }
 }
