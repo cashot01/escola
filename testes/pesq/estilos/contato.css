@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #8958FA;
+    --cor1: #58D3FA;
+    --cor2: #524EDE;
+    --cor3: #4E95DE;
+    --cor4: #6184F5 ;
+    --cor5: #2daed5;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#pagina_contato{
+    background: url(../imagens/tartaruga.jpg) no-repeat  ;
+    background-size: cover;
+    background-position: center ;
+}
+
+section#contato{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    background-color: var(--cor1);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    transition-timing-function: ease;
+    text-align: center;
+    transition: width .3s, height .3s;
+    transform: translate(-50%, -50%);
+}
+
+.linkcontato{
+    padding: 0px;
+    color: black;
+}
+
+.linkcontato:hover{
+    padding: 0px;
+    text-decoration: underline;
+    color: var(--cor5);
+}
+
