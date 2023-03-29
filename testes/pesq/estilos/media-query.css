@@ -11,7 +11,7 @@ grandes telas: acima de 1200px
 @media screen and (min-width:768px) and (max-width: 992px)  {
 
 
-    section#pesq{
+    #pesq, #contato{
        width: 70vw;
        height: 85vh;
        margin-top: 10px;
@@ -29,20 +29,12 @@ grandes telas: acima de 1200px
         background: linear-gradient(to bottom, #8958FA, #6184F5)  ;
     }
 
-    section#pesq{
-        width: 60vw ;
-        height: 80vh;
+    #pesq,  #contato{
+        width: 200vw;
+        height: 100vh;
     }
 
-    h2{
-        max-width: 85%;
-        transform: translateX(9.5%) ;
-    }
+   
 
-    p{
-        padding: 1em;
-        max-width: 60%;
-        transform: translateX(32%);
-        
-    }
+
 }
