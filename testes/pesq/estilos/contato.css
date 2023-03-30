@@ -22,7 +22,7 @@
     background-position: center ;
 }
 
-section#contato{
+/*main{
     position: absolute;
     display: block;
     overflow: hidden;
@@ -31,7 +31,28 @@ section#contato{
     background-color: var(--cor1);
     width: 350px;
     height: 350px;
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    transition-timing-function: ease;
+    text-align: center;
+    transition: width .3s, height .3s;
+    transform: translate(-50%, -50%);
+} */
+
+main{
+    background-color: var(--cor1);
+    position: absolute;
+    margin: auto;
+    margin-bottom: 30px;
+
+    top: 60%;
+    left: 50%;
+    
+    min-width: 400px;
+    max-width: 650px;
+    padding: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     transition-timing-function: ease;
     text-align: center;
@@ -39,15 +60,27 @@ section#contato{
     transform: translate(-50%, -50%);
 }
 
-.linkcontato{
-    padding: 0px;
-    color: black;
-    
+ p {
+    padding: 5px;
+   text-align: justify;
+    margin-bottom: 10px;
+    background-color: var(--cor2);
+    font-size: 20px;
+    border-radius: 5px;
 }
 
-.linkcontato:hover{
-    padding: 0px;
-    text-decoration: underline;
-    background-color: var(--cor2);
+ a.linkcontato{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+
 }
+
+a.linkcontato:hover{
+    padding: 10px;
+    text-decoration: underline;
+   
+}
+
+
 

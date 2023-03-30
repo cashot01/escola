@@ -21,10 +21,10 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
 }
 
-body, html{
+body{
     background-color: #8958FA  ;
     height: 100vh;
     width: 100vw;
@@ -34,64 +34,88 @@ body, html{
 
 header{
     background-color: var(--cor2) ;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    
     text-align: center;
-
+    
 }
 
 header > h1{
     color: var(--cor1);
     font-size: 2.5em;
     text-decoration: none;
-    margin-bottom: 20px;
+    font-weight: normal;
     
 }
 
 nav{
     background-color: var(--cor2);
     text-align: left;
-    border-radius: 0px;
     padding: 10px;
     
 }
 
-a{
+nav > a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.668);
     padding: 10px ;
     border-radius: 5px;
+    transition-duration: 0.75s;
 }
 
-a:hover{
-   padding: px;
+nav > a:hover{
+   
    background-color: #58D3FA;
    
 }
 
 main{
-    position: relative;
-    margin: auto;
-    height: 80vh;
-    width: 100vw;
-}
-
-section#pesq{
-    position: absolute;
-    display: block;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
     background-color: var(--cor1);
-    width: 400px;
-    height: 600px;
-    border-radius: 20px;
+    position: absolute;
+    margin: auto;
+    margin-bottom: 30px;
+
+    top: 60%;
+    left: 50%;
+    
+    min-width: 400px;
+    max-width: 650px;
+    padding: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     transition-timing-function: ease;
     text-align: center;
     transition: width .3s, height .3s;
     transform: translate(-50%, -50%);
 }
+
+ main h2{
+    margin: 10px;
+    padding: 4px;
+    background-color: var(--cor0);
+    border: 1px solid var(--cor0);
+    border-radius: 10px;
+    vertical-align: middle;
+
+}
+
+/*#pesq{
+    position: absolute;
+    display: block;
+    overflow: visible;
+    top: 50%;
+    left: 50%;
+    background-color: var(--cor1);
+    width: 400px;
+    height: 600px;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    transition-timing-function: ease;
+    text-align: center;
+    transition: width .3s, height .3s;
+    transform: translate(-50%, -50%);
+} */
 
 caption{
     background-color: gray;
@@ -130,19 +154,19 @@ col.cnome{
    display: block;
 }
 
-h2{
+/*h2{
     margin: 10px;
     padding: 4px;
     background-color: var(--cor0);
     border: 1px solid var(--cor0);
     border-radius: 10px;
     vertical-align: middle;
-}
+} */
 
 p{
-    
     padding: 5px;
-    margin: 5px;
+   text-align: justify;
+    margin: 15px, 0px, 15px, 0px;
     background-color: var(--cor2);
     font-size: 15px;
     border-radius: 10px;
