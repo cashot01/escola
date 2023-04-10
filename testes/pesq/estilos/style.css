@@ -48,25 +48,40 @@ header > h1{
     
 }
 
-nav{
+menu{
+    display: none;
     background-color: var(--cor2);
     text-align: left;
-    padding: 10px;
+    padding: 10px; 
     
 }
 
-nav > a{
-    text-decoration: none;
+menu > a{
+text-decoration: none;
     color: rgba(0, 0, 0, 0.668);
     padding: 10px ;
     border-radius: 5px;
     transition-duration: 0.75s;
 }
 
-nav > a:hover{
+menu > a:hover{
    
    background-color: #58D3FA;
    
+}
+
+span#hamburguer{
+    background-color: rgba(28, 25, 211, 0.504);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#hamburguer:hover{
+    background-color: rgba(136, 47, 245, 0.607);
+    color: black;
 }
 
 main{
@@ -125,7 +140,7 @@ caption{
 table{
     margin:  auto;
     padding: 20px;
-    
+    margin-bottom: 10px;
     border-collapse: collapse;
     position: relative;
 }
@@ -147,7 +162,7 @@ col.cnome{
     background-color: var(--cor4);
 }
 
-#tabela{
+.tabela{
    margin: 0px;
    margin-top: 5px;
    background-color: var(--cor1);

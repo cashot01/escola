@@ -10,6 +10,9 @@ grandes telas: acima de 1200px
 
 @media screen and (min-width:768px) and (max-width: 992px)  {
 
+    span#hamburguer{
+        display: none;
+    }
 
     main, #contato{
       /* width: 70vw; */
@@ -19,6 +22,10 @@ grandes telas: acima de 1200px
 
     main{
         border-radius: 10px;
+    }
+
+    table{
+        
     }
 
     p{
@@ -33,8 +40,13 @@ grandes telas: acima de 1200px
         background: linear-gradient(to bottom, #8958FA, #6184F5)  ;
     }
 
+    span#hamburguer{
+        display: none;
+    }
+
     main{
         border-radius: 10px;
+        width: 40vw;
     }
 
     #contato{
@@ -42,7 +54,10 @@ grandes telas: acima de 1200px
         
     }
 
-   
+   table{
+    overflow: visible ;
+    width: 30vw;
+   }
 
 
 }

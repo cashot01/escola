@@ -7,50 +7,21 @@
     <title>PESQ</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="menu/menuHamburguer.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>PESQ 3ºE Aqua Marine</h1>
-        <nav>
+        <span id="hamburguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="menu">
             <a href="pesq.html">Início</a>
+            <a href="integrantes.html" target="_blank">Integrantes</a>
             <a href="contato.html" target="_blank">Contato</a>
-        </nav>
+        </menu>
     </header>
         <main>
-            <article>
-                <div id="tabela">
-                    <table>
-                        <caption>Integrantes 3ºE</caption>
-                        <colgroup>
-                            <col class="cnome">
-                            <col class="cnum">
-                        </colgroup>
-                        <tr>
-                            <th scope="col" id="inome">Nome</th>
-                            <th scope="col" id="inum">Número</th>
-                        </tr>
-                        <tr>
-                            <td> BEATRIZ EVANGELISTA TAVARES</td>
-                            <td class="cnum">01</td>
-                        </tr>
-                        <tr>
-                            <td>CAUAN ARANEGA SCHOT PASSOS</td>
-                            <td class="cnum">04</td>
-                        </tr>
-                        <tr>
-                            <td> GUSTAVO ANTONIO RODRIGUES</td>
-                            <td class="cnum">14</td>
-                        </tr>
-                        <tr>
-                            <td>GUSTAVO HENRIQUE RICHARDI</td>
-                            <td class="cnum">15</td>
-                        </tr>
-                        <tr>
-                            <td>KAIO NOGUEIRA MUNGO</td>
-                            <td class="cnum">24</td>
-                        </tr>
-                    </table>
-                </div>
                         <h2>
                             Tema: ODS  14 - Vida na Água
                         </h2>
@@ -71,7 +42,7 @@
                         <p>
                             Nosso objetivo é diminuir o maximo possivel da poluição dos oceanos. Gerir de forma sustentável e proteger os ecossistemas marinhos e costeiros para evitar impactos adversos significativos, inclusive por meio do reforço da sua capacidade de resiliência, e tomar medidas para a sua restauração, a fim de assegurar oceanos saudáveis e produtivos.
                         </p>
-            </article>
+            
         </main>
 </body>
 </html>
