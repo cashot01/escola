@@ -14,6 +14,10 @@ grandes telas: acima de 1200px
         display: none;
     }
 
+    menu{
+        display: block;
+    }
+
     main, #contato{
       /* width: 70vw; */
        
@@ -42,6 +46,10 @@ grandes telas: acima de 1200px
 
     span#hamburguer{
         display: none;
+    }
+
+    menu{
+        display: block;
     }
 
     main{
