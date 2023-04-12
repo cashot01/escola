@@ -18,19 +18,7 @@ grandes telas: acima de 1200px
         display: block;
     }
 
-    main, #contato{
-      /* width: 70vw; */
-       
-       margin-top: 10px;
-    }
 
-    main{
-        border-radius: 10px;
-    }
-
-    table{
-        
-    }
 
     p{
         padding: 10px;
@@ -63,8 +51,8 @@ grandes telas: acima de 1200px
     }
 
    table{
-    overflow: visible ;
-    width: 30vw;
+    max-width: 992px;
+    
    }
 
 
