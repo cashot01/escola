@@ -22,44 +22,6 @@
     background-position: center ;
 }
 
-/*main{
-    position: absolute;
-    display: block;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    background-color: var(--cor1);
-    width: 350px;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
-    transition-timing-function: ease;
-    text-align: center;
-    transition: width .3s, height .3s;
-    transform: translate(-50%, -50%);
-} */
-
-/*main{
-    background-color: var(--cor1);
-    position: absolute;
-    margin: auto;
-    margin-bottom: 30px;
-
-    top: 60%;
-    left: 50%;
-    
-    min-width: 400px;
-    max-width: 650px;
-    padding: 2px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
-    transition-timing-function: ease;
-    text-align: center;
-    transition: width .3s, height .3s;
-    transform: translate(-50%, -50%);
-} */
-
  article > p {
     padding: 5px;
     text-align: center;
