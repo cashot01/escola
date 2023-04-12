@@ -165,8 +165,8 @@ col.cnome{
 .tabela{
    margin: 0px;
    margin-top: 5px;
-   background-color: var(--cor1);
-   display: block;
+   
+   display: block ;
 }
 
 /*h2{
