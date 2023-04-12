@@ -19,12 +19,13 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
     margin: 0px;
     padding: 0px;
     
 }
 
-body{
+body, html{
     background-color: #8958FA  ;
     height: 100vh;
     width: 100vw;
@@ -34,40 +35,19 @@ body{
 
 header{
     background-color: var(--cor2) ;
-    padding-top: 20px;
     
-    text-align: center;
+    
     
 }
 
 header > h1{
     color: var(--cor1);
     font-size: 2.5em;
+    text-align: center;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bolder;
     padding-bottom: 20px;
-}
-
-menu{
-    
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 10px; 
-    
-}
-
-menu > a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.668);
-    padding: 10px ;
-    border-radius: 5px;
-    transition-duration: 0.75s;
-}
-
-menu > a:hover{
-   
-   background-color: #58D3FA;
-   
+    padding: 10px;
 }
 
 span#hamburguer{
@@ -84,35 +64,65 @@ span#hamburguer:hover{
     color: black;
 }
 
-main{
-    background-color: var(--cor1);
-    position: absolute;
-    margin: auto;
-    margin-bottom: 30px;
-
-    top: 60%;
-    left: 50%;
+nav{
+    display: none;
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px; 
     
-    min-width: 400px;
-    max-width: 650px;
-    padding: 2px;
+}
+
+nav > a{
+    display: inline;
+    padding: 10px ;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.668);
+    border-radius: 5px;
+    transition-duration: 0.75s;
+}
+
+nav > a:hover{
+   
+   background-color: #58D3FA;
+   
+}
+
+
+main{
+    width: 90vw;
+    background-color: var(--cor1);
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+
+    padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     transition-timing-function: ease;
     text-align: center;
     transition: width .3s, height .3s;
-    transform: translate(-50%, -50%);
+    
 }
 
- main h2{
-    margin: 10px;
-    padding: 4px;
+ article h2{
+    margin: 8.6px;
+    padding: 3px;
     background-color: var(--cor0);
     border: 1px solid var(--cor0);
     border-radius: 10px;
-    vertical-align: middle;
+    
 
+}
+
+article p{
+    padding: 6px;
+    text-align: justify;
+    margin: 15px, 0px, 15px, 0px;
+    background-color: var(--cor2);
+    font-size: 15px;
+    border-radius: 10px;
 }
 
 /*#pesq{
@@ -178,12 +188,5 @@ col.cnome{
     vertical-align: middle;
 } */
 
-p{
-    padding: 5px;
-   text-align: justify;
-    margin: 15px, 0px, 15px, 0px;
-    background-color: var(--cor2);
-    font-size: 15px;
-    border-radius: 10px;
-}
+
 
