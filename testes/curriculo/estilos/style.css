@@ -10,6 +10,7 @@ body, html{
     background-color: lightgreen;
     height: 100vh;
     width: 100vw;
+    overflow: auto;
 }
 
 header{
@@ -52,7 +53,7 @@ main{
     background-color: wheat;
     margin: auto;
     padding: 10px;
-    
+   
     margin-top: 10px;
     border-radius: 15px;
     text-align: center;
@@ -82,4 +83,33 @@ ol > li {
     margin: 5px;
     text-align: justify;
 
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover{
+    text-decoration: underline;
+    color: #5A1A8B;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+footer  a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #5A1A8B;
+    font-weight: bold;
 }
